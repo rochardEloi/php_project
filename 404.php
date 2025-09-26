@@ -70,20 +70,7 @@
     </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <h1>PHP Project</h1>
-                </div>
-                <div class="nav-menu">
-                    <a href="index.php" class="nav-link">Home</a>
-                    <a href="register.php" class="nav-link">Register</a>
-                    <a href="login.php" class="nav-link">Login</a>
-                </div>
-            </div>
-        </nav>
-    </header>
+  
 
     <main>
         <div class="container">
@@ -96,33 +83,16 @@
                     <a href="index.php" class="btn btn-primary">Go Home</a>
                     <a href="javascript:history.back()" class="btn btn-secondary">Go Back</a>
                 </div>
-
-                <div class="helpful-links">
-                    <h3>Popular Pages</h3>
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="register.php">Register</a></li>
-                        <li><a href="login.php">Login</a></li>
-                        <li><a href="profile.php">Profile</a></li>
-                    </ul>
-                </div>
-
-                <div style="margin-top: 3rem; color: #7f8c8d;">
-                    <p><strong>Technical Details:</strong></p>
-                    <p>Requested URL: <?php echo htmlspecialchars($_SERVER['REQUEST_URI']); ?></p>
-                    <p>Server: <?php echo htmlspecialchars($_SERVER['SERVER_SOFTWARE']); ?></p>
-                    <p>Date/Time: <?php echo date('Y-m-d H:i:s T'); ?></p>
-                </div>
             </div>
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 PHP Project. All rights reserved.</p>
-        </div>
-    </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
+
+    <!--
+    Feature: Helpful links at the bottom of the page for easier navigation
+    -->
+
+
