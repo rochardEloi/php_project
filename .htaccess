@@ -1,0 +1,5 @@
+# Enable URL rewriting for custom 404 page
+RewriteEngine On
+
+# Set custom 404 page
+ErrorDocument 404 /404.php
